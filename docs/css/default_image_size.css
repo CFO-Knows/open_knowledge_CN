@@ -1,0 +1,8 @@
+/* 控制所有 Markdown 图片的默认宽度 */
+.md-content img {
+  max-width: 600px;   /* 固定值：600px | 或者80% */
+  height: auto;
+  display: block;
+  margin: 1em auto;
+  border-radius: 8px; /* 可选，美化 */
+}
