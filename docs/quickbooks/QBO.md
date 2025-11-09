@@ -50,6 +50,8 @@ invoice个性化设置
 
 ![1762612556569](image/QBO注册引导/1762612556569.png)
 
+## Import Transactions
+
 ### bank connecting
 
 ![1762612590312](image/QBO注册引导/1762612590312.png)
@@ -99,7 +101,7 @@ invoice个性化设置
 
 ## 主界面介绍
 
-#### 任务
+#### 第一次登陆: Tasks
 
 ![1762612953387](image/QBO注册引导/1762612953387.png)
 
