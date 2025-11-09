@@ -1,0 +1,41 @@
+site_name: 美国财务与税务公开资料库
+site_author: 刘杰夫
+site_url: https://CFO-Knows.github.io/open_knowledge_CN/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+
+# plugins:
+#   - search
+#   - i18n: # https://ultrabug.github.io/mkdocs-static-i18n/fr/getting-started/quick-start/
+#       docs_structure: suffix
+#       languages:
+#         - locale: en
+#           default: true
+#           name: English
+#           build: true
+#         - locale: zh
+#           name: 中文
+#           build: true
+
+nav:
+  - 首页: index.md
+  - Bookkeeping:
+    - QBO: quickbooks/QBO.md
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+
+extra_javascript:
+  - javascripts/katex.js
+  - https://unpkg.com/katex@0/dist/katex.min.js
+  - https://unpkg.com/katex@0/dist/contrib/auto-render.min.js
+
+extra_css:
+  - https://unpkg.com/katex@0/dist/katex.min.css
+  - stylesheets/extra.css
