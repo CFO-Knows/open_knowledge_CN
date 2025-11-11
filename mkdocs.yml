@@ -27,6 +27,7 @@ nav:
     - QBO: quickbooks/QBO.md
   - EA Part1:
     - Filing Requirements: EA_Part1/1_filing_requirements.md
+  - Individual Tax: individuals/individuals.md
 
 markdown_extensions:
   - attr_list
